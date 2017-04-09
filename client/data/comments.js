@@ -1,14 +1,14 @@
 const comments = {
   "BAhvZrRwcfu":[
     {
-      "likes":0,
+      "likes":6,
       "text":"Totally need to try this.",
       "user": "heavymetaladam"
     }
   ],
   "BAcyDyQwcXX":[
     {
-      "likes":0,
+      "likes":4,
       "text":"Wes. WE should have lunch.",
       "user": "jdaveknox"
     },
@@ -18,12 +18,12 @@ const comments = {
       "user": "jdaveknox"
     },
     {
-      "likes":0,
+      "likes":4,
       "text":"@jdaveknox yes!",
       "user": "wesbos"
     },
     {
-      "likes":0,
+      "likes":66,
       "text":"😍 love Hamilton!",
       "user": "willowtreemegs"
     }

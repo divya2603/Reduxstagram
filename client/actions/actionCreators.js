@@ -7,41 +7,32 @@ export function increment(index) {
 }
 
 // increment likes on comments
-export function incrementComments(index, postId) {
+export function incrementByOne(postId, index) {
     return {
         type: 'INCREMENT_LIKES_COMMENTS',
-        index,
-        postId
+        postId,
+        index
     }
 }
 
 // add comment
-export function addComment(postId, author,comment) {
+export function addComment(postId, author,comment, likes) {
     return {
         type: 'ADD_COMMENT',
         postId,
         author,
-        comment
+        comment,
+        likes
     }
 }
 
 // edit comment
-export function editComment(postId, author,comment) {
+export function editComment(postId, index, disabled) {
     return {
         type: 'EDIT_COMMENT',
         postId,
-        author,
-        comment
-    }
-}
-// edit comment
-export function replyComment(forPostId,fromPostId, fromAuthor,fromComment) {
-    return {
-        type: 'REPLY_COMMENT',
-        forPostId,
-        fromPostId,
-        fromAuthor,
-        fromComment
+        index,
+        disabled
     }
 }
 
